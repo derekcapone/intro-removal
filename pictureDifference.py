@@ -151,6 +151,7 @@ def compareImages(type, im1, im2):
     return res_val
 
 
-window = Window()
+if __name__ == "__main__":
+    window = Window()
 
-window.window.mainloop()
+    window.window.mainloop()
