@@ -153,5 +153,4 @@ def compareImages(type, im1, im2):
 
 if __name__ == "__main__":
     window = Window()
-
     window.window.mainloop()
